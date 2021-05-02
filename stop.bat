@@ -1,0 +1,1 @@
+pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js

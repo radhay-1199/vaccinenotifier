@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if which npm &>/dev/null
+then
+echo "npm not installed"
+echo "installing node"
+brew install node
+fi
+
+if which pm2 &>/dev/null
+then
+echo "pm2 not installed"
+echo "installing pm2"
+npm i pm2 -g
+fi
+
+npm i && pm2 start vaccineNotifier.js
+
