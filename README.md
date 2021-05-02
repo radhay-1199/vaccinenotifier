@@ -13,17 +13,18 @@ Step 3) Check if npm installed. (npm required)
 
 * scripts to run process
 \
-=>For Mac: run script run_mac.sh
+=>For Mac: run script run_mac.sh or On your terminal run: npm i && pm2 start vaccineNotifier.js
 \
-=>For Windows: run batch file run_win.bat
+=>For Windows: run batch file run_win.bat or On your cmd run: npm i && pm2 start vaccineNotifier.js
 
 * scripts to stop the process:
 \
-=>For Mac: run stop.sh
+=>For Mac: run stop.sh or On your terminal run: pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js
 \
-=>For Windows: run stop.bat
+=>For Windows: run stop.bat or On your cmd run: pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js
 \
 \
+##############################################################################################
 <font size="6"> Main Thread: https://github.com/kartikey54/VaccineAvailabilityNotifier </font>
 \
 \
